@@ -28,9 +28,12 @@ function openStore() {
           name: "item_id",
           validate: function(value) {
             var x = parseInt(value);
+            global.X = x
             for (i = 0; i < res.length; i++) {
 
               if (x === parseInt(res[i].item_id)) {
+                var choice = res[i];
+                global.Choice = choice;
                 return true;
               }
               else if (i == (res.length - 1)) {
@@ -44,8 +47,23 @@ function openStore() {
         {
           type: "input",
           message: "How many units would you like to buy?",
-          name: "stock_quantity"
+          name: "stock_quantity",
+          validate: function(val) {
+            var y = parseInt(val);
+            for (j = 0; j < res.length; j++) {
+              if (X === parseInt(res[j].item_id)) {
+
+                if (y > parseInt(res[j].stock_quantity)) {
+                  console.log("\n" + "Not enough stock!");
+                  return false;
+                }
+                else {
+                  return true;
+                }
+            }
+          }
         }
+      }
     ])
   });
 }
