@@ -19,3 +19,10 @@ This is a command line application developed to act as a digital store front. Up
 
 2. Ensure that sql scripts will function as expected.
 <img src="/images/command1k.PNG" alt=sql-1>
+
+<img src="/images/command1j.PNG" alt=sql-2>
+
+3. Enter the mysql command line interface using `mysql -u root -p`. Be sure to enter the password set up for root user of mysql.
+
+<img src="/images/command1f.PNG" alt=sql-1>
+
