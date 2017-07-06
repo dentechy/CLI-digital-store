@@ -14,3 +14,7 @@ This is a command line application developed to act as a digital store front. Up
 * mysql (npm)
 
 ## Walkthrough
+
+1. Clone the repo to your local computer. Change into the repo directory. Use the command `<npm install>` to install the required node packages, `<inquirer>` and `<mysql>`.
+
+2. Ensure that sql scripts will function as expected. Make sure that the password for establishing conn
