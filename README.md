@@ -54,3 +54,9 @@ This is a command line application developed to act as a digital store front. Up
 <img src="/images/command1b.PNG" alt=sql-9>
 <img src="/images/command1c.PNG" alt=sql-10>
 <img src="/images/command1d.PNG" alt=sql-11>
+
+9. Note that the program will not proceed if an invalid ID is entered or there is insufficient stock.
+
+
+<img src="/images/command1l.PNG" alt=sql-12>
+<img src="/images/command1m.PNG" alt=sql-13>
