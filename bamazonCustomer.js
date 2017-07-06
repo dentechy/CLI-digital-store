@@ -57,15 +57,20 @@ function openStore() {
                   return false;
                 }
                 else {
-                  return true;
+                  console.log("\n" + "The total price is " + parseInt(res[j].price) * y);
+                  var currentStock = parseInt(res[j].stock_quantity) - y;
+                  console.log(currentStock);
+                  connection.query("UPDATE products SET ? where item_id = ?", [{stock_quantity: currentStock}, X]);
+                  process.exit(-1);
                 }
+
             }
           }
         }
       }
+
     ])
   });
 }
-
 
 
