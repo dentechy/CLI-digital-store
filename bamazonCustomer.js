@@ -32,8 +32,7 @@ function openStore() {
             for (i = 0; i < res.length; i++) {
 
               if (x === parseInt(res[i].item_id)) {
-                var choice = res[i];
-                global.Choice = choice;
+                console.log("\n" + "You selected " + res[i].product_name);
                 return true;
               }
               else if (i == (res.length - 1)) {
