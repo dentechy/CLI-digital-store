@@ -24,5 +24,14 @@ This is a command line application developed to act as a digital store front. Up
 
 3. Enter the mysql command line interface using `mysql -u root -p`. Be sure to enter the password set up for root user of mysql.
 
-<img src="/images/command1f.PNG" alt=sql-1>
+<img src="/images/command1f.PNG" alt=sql-3>
 
+4. Create the database "Bamazon" and populate a table with entries using these commands:
+
+  * `SOURCE Bamazon.sql;` (creates database and table)
+  
+<img src="/images/command1g.PNG" alt=sql-4>
+
+  * `SOURCE 10products.sql;` (populates table with 10 products)
+
+<img src="/images/command1h.PNG" alt=sql-5>
