@@ -48,7 +48,7 @@ This is a command line application developed to act as a digital store front. Up
 
 <img src="/images/command1a.PNG" alt=sql-8>
 
-8. Continue through the prompts.
+8. Continue through the prompts. At the last prompt, the customer is presented with the total price and the inventory is updated accordingly.
 
 
 <img src="/images/command1b.PNG" alt=sql-9>
