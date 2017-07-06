@@ -18,4 +18,4 @@ This is a command line application developed to act as a digital store front. Up
 1. Clone the repo to your local computer. Change into the repo directory. Use the command `npm install` to install the required node packages, `inquirer` and `mysql`.
 
 2. Ensure that sql scripts will function as expected.
-![sql-1](/images/command1k.PNG)
+<img src="/images/command1k.PNG" alt=sql-1>
